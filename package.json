@@ -1,0 +1,24 @@
+{
+  "name": "nust_ebill-master",
+  "version": "1.0.0",
+  "description": "NustEbillSytsem",
+  "main": "billLog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PERPELEX/NUST_EBill.git"
+  },
+  "author": "Mahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PERPELEX/NUST_EBill/issues"
+  },
+  "homepage": "https://github.com/PERPELEX/NUST_EBill#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1"
+  }
+}

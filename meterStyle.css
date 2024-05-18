@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    padding:0;
+    margin:0;
+    overflow: hidden;
+    background: linear-gradient(to right,#36d1dc ,#5b86e5);
+}
+
+header{
+    display:flex;
+    
+}
+
+.bar{
+    padding:0;
+    margin:0;
+    height:10vh;
+    min-height: 60px;
+    
+}
+
+.rightBar{
+    position: absolute;
+    width: 52%;
+    left: 48%;
+    background: linear-gradient(to right,#141e30,#243b55);
+    z-index: 2;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: none;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navLink{
+    z-index: 3;
+    font-size: 1.2rem;
+    font-family: lato,cambria ,serif;
+    font-weight: bold;
+    width: 8%;
+}
+
+
+#home_icon{
+    font-size:1.7rem;
+    margin:0;  
+    transition: 0.25s ease;  
+}
+
+.navLink a{
+    padding: 0.5rem;
+    position: relative;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.1s ease;
+}
+
+.navLink .navText:hover{
+    color: rgb(0, 225, 255);
+    font-size: 1.5rem;
+}
+
+.navIcon:hover{
+    color: rgb(0, 225, 255);
+    transform: scale(1.2);
+    font-size: 2rem;
+}
+
+.leftBar{
+    z-index: 3;
+    position: absolute;
+    width: 55%;
+    left: -5%;
+    background: linear-gradient(to right,#000428,#004e92);
+    transform: skew(-35deg,0);
+}
+
+.title{
+    position: absolute;
+    width:100%;
+    height:100%;
+    padding: 0%;
+    margin:0;
+    top: 20%;
+    text-align: center;
+    font-family: lato ,cambria ,serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: transparent;
+    background: linear-gradient(to right,#f8d90f,#d3dd18);
+    -webkit-background-clip: text;
+    background-clip: text;
+    transform: skew(35deg,0);
+}
+
+main{
+
+    position: absolute;
+    top:10%;
+    height:90vh;
+    width:100%;
+}
+
+.background{
+    position: inherit;
+    z-index:0;
+    width: 100%;
+    height: 100%;
+    opacity: 10%;
+}
+
+.header{
+    position: inherit;
+    z-index: 2;
+    width: 100%;
+    height: 20%;
+    top: 12%;
+}
+
+.header h1{
+    text-align: center;
+    font-family: lato,cambria ,serif;
+    font-weight: bold;
+    font-size: 5rem;
+    color: whitesmoke;
+}
+
+.optContainer{
+    position: inherit;
+    display: flex;
+    flex-wrap: none;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 2;
+    width: 100%;
+    height: 20%;
+    top: 50%;
+}
+
+.options{
+    position: relative;
+    background-color: whitesmoke;
+    height: 50%;
+    width: 15%;
+    border-radius: 25px;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.25s ease-in-out 0ms;
+}
+
+.options a{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options a p {
+    font-size: 1.5rem;
+    font-family: lato,cambria ,serif;
+    font-weight: bold;
+}
+
+.options:hover{
+    background-color: #000428;
+    color: white;
+    transform: scale(1.2);
+}
+
+.options:hover a{
+    color: white;
+}
+
+.bubble {
+    z-index: 1;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(222,222,222,70%); 
+    border-radius: 50%;
+    animation: fall 5s linear infinite; 
+}
+
+footer{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 10%;
+    top: 90%;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#141e30,#243b55);
+}
+
+.footer hr{
+    width:38%;
+    border-top: 0.01px solid whitesmoke;
+    margin:0;
+    padding: 0%;
+}
+
+.footer p{
+    color:whitesmoke;
+    font-size: 0.7rem;
+    font-family: lato,cambria ,serif;
+    letter-spacing: 0.15rem;
+    word-spacing: 0.5rem;
+}
+
+.footer p a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.footer p a:hover{
+    color: rgb(0, 225, 255);
+    transition: 0.1s ease-in-out;
+    top: -0.1rem;
+    left: -0.1rem;
+}
+
+.icon{
+    position: absolute;
+    top:35%;
+    left: 97%;
+    z-index: 2;
+    color: whitesmoke;    
+    font-size: 1.5rem;
+}
+
+.icon:hover{
+    color: rgb(0, 225, 255);
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
