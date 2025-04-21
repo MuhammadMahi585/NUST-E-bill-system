@@ -45,8 +45,38 @@ A full-stack **Electricity Billing System** developed using **HTML, CSS, JavaScr
    cd NUST-E-bill-system
 
  
+## Landing Page
 
+![Landing Page](./images/landing.png "Landing Page")
 
 ## Login Page
 
-![Login Page](./images/login.png "Login Page")
+![Login Page](./images/billog.png "Login Page")
+
+## Bill log Page
+
+![Bill logPage Page](./images/login.png "Billlog Page")
+
+## Add Customer Page
+
+![Add Customer Page](./images/addCustomerPage.png "Add Customer Page")
+
+## Admin Menu Page
+
+![Admin Menu  Page](./images/adminMenuPage.png "Admin Menu Page")
+
+## Customer Page
+
+![Customer  Page](./images/CustomerPage.png "Customer")
+
+## Delete Customer Page
+
+![Delete Customer  Page](./images/deleteCustomerPage.png "Delete Customer Page")
+
+## Meter Page
+
+![Meter  Page](./images/meterPage.png "Meter Page")
+
+## Terrif Page
+
+![Terrif  Page](./images/terrifPage.png "Terrif Page")
