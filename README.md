@@ -63,7 +63,7 @@ A full-stack **Electricity Billing System** developed using **HTML, CSS, JavaScr
 
 ## Admin Menu Page
 
-![Admin Menu  Page](./images/adminMenuPage.png.png "Admin Menu Page")
+![Admin Menu  Page](./images/adminMenuPage.png "Admin Menu Page")
 
 ## Customer Page
 
