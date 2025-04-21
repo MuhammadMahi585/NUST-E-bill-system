@@ -51,19 +51,19 @@ A full-stack **Electricity Billing System** developed using **HTML, CSS, JavaScr
 
 ## Login Page
 
-![Login Page](./images/billog.png "Login Page")
+![Login Page](./images/login.png "Login Page")
 
 ## Bill log Page
 
-![Bill logPage Page](./images/login.png "Billlog Page")
+![Bill logPage Page](./images/billlogPage.png "Billlog Page")
 
 ## Add Customer Page
 
-![Add Customer Page](./images/addCustomerPage.png "Add Customer Page")
+![Add Customer Page](./images/addCustomer.png "Add Customer Page")
 
 ## Admin Menu Page
 
-![Admin Menu  Page](./images/adminMenuPage.png "Admin Menu Page")
+![Admin Menu  Page](./images/adminMenuPage.png.png "Admin Menu Page")
 
 ## Customer Page
 
@@ -71,7 +71,7 @@ A full-stack **Electricity Billing System** developed using **HTML, CSS, JavaScr
 
 ## Delete Customer Page
 
-![Delete Customer  Page](./images/deleteCustomerPage.png "Delete Customer Page")
+![Delete Customer  Page](./images//deleteCustomerPage.png "Delete Customer Page")
 
 ## Meter Page
 
