@@ -47,7 +47,7 @@ A full-stack **Electricity Billing System** developed using **HTML, CSS, JavaScr
  
 ## Landing Page
 
-![Landing Page](./images/landing.png "Landing Page")
+![Landing Page](./images/landingPage.png "Landing Page")
 
 ## Login Page
 
